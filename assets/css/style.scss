@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header { color: #fff; text-align: center; background-color: #100917; background-image: linear-gradient(120deg, #092257, #105996); }
+@media screen and (min-width: 64em) { .page-header { padding: 1rem 6rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) { .page-header { padding: 1rem 4rem; } }
+@media screen and (max-width: 42em) { .page-header { padding: 1rem 1rem; } }
